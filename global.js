@@ -45740,7 +45740,7 @@
             .showGlobe(!0)
             .labelResolution(0.01)
             .labelResolution(6)
-            .atmosphereColor("#40375d")
+            .atmosphereColor("#982cc2")
             .atmosphereAltitude(0.4)
             .hexPolygonColor((t) => "rgba(34, 148, 245, 0.6)");
         }, t);
