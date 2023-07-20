@@ -45742,7 +45742,7 @@
             .labelResolution(6)
             .atmosphereColor("#982cc2")
             .atmosphereAltitude(0.4)
-            .hexPolygonColor((t) => "rgba(34, 148, 245, 0.6)");
+            .hexPolygonColor((t) => "rgba(13, 166, 246, 0.9)");
         }, t);
       }
       initAnimationData(t) {
@@ -45822,8 +45822,8 @@
       }
       _buildMaterial() {
         const t = this.instance.globeMaterial();
-        (t.color = new N(9970536)),
-          (t.emissive = new N(9970536)),
+        (t.color = new N(9979771)),
+          (t.emissive = new N(9979771)),
           (t.emissiveIntensity = 0),
           (t.shininess = 0);
       }
