@@ -45740,7 +45740,7 @@
             .showGlobe(!0)
             .labelResolution(0.01)
             .labelResolution(6)
-            .atmosphereColor("#982cc2")
+            .atmosphereColor("#9554e9")
             .atmosphereAltitude(0.4)
             .hexPolygonColor((t) => "rgba(13, 166, 246, 0.9)");
         }, t);
@@ -45748,28 +45748,28 @@
       initAnimationData(t) {
         setTimeout(() => {
           this.instance
-            .arcsData(wg.flights)
-            .arcStartLat((t) => 1 * t.startLat)
-            .arcStartLng((t) => 1 * t.startLng)
-            .arcEndLat((t) => 1 * t.endLat)
-            .arcEndLng((t) => 1 * t.endLng)
-            .arcColor(() => ("#ffffff"))
-            .arcAltitude((t) => 1 * t.arcAlt)
-            .arcStroke((t) => [0.32, 0.28, 0.3][Math.round(2 * Math.random())])
-            .arcDashLength(0.9)
-            .arcDashInitialGap((t) => 1 * t.order)
-            .arcDashGap(15)
-            .arcDashAnimateTime((t) => 1500)
-            .pointsData(this.pointsData)
-            .pointColor((t) => t.color)
-            .pointsMerge(!0)
-            .pointAltitude(0)
-            .pointRadius(0.3)
+            // .arcsData(wg.flights)
+            // .arcStartLat((t) => 1 * t.startLat)
+            // .arcStartLng((t) => 1 * t.startLng)
+            // .arcEndLat((t) => 1 * t.endLat)
+            // .arcEndLng((t) => 1 * t.endLng)
+            // .arcColor(() => ("#ffffff"))
+            // .arcAltitude((t) => 1 * t.arcAlt)
+            // .arcStroke((t) => [0.32, 0.28, 0.3][Math.round(2 * Math.random())])
+            // .arcDashLength(0.9)
+            // .arcDashInitialGap((t) => 1 * t.order)
+            // .arcDashGap(15)
+            // .arcDashAnimateTime((t) => 1500)
+            // .pointsData(this.pointsData)
+            // .pointColor((t) => t.color)
+            // .pointsMerge(!0)
+            // .pointAltitude(0)
+            // .pointRadius(0.3)
             .ringsData([])
             .ringColor((t) => (e) => t.color(e))
-            .ringMaxRadius(4)
-            .ringPropagationSpeed(2)
-            .ringRepeatPeriod(810);
+            .ringMaxRadius(0)
+            .ringPropagationSpeed(0)
+            .ringRepeatPeriod(0);
         }, t);
       }
       tick(t) {
